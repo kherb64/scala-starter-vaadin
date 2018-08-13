@@ -1,19 +1,16 @@
 package starter.skeleton
 
-import com.vaadin.flow.component.{AbstractField, ClickEvent}
 import com.vaadin.flow.component.button.Button
 import com.vaadin.flow.component.grid.Grid
 import com.vaadin.flow.component.html.Label
 import com.vaadin.flow.component.icon.{Icon, VaadinIcon}
 import com.vaadin.flow.component.orderedlayout.FlexComponent.Alignment
 import com.vaadin.flow.component.orderedlayout.{HorizontalLayout, VerticalLayout}
-import com.vaadin.flow.component.page.Push
 import com.vaadin.flow.component.textfield.TextField
+import com.vaadin.flow.component.{AbstractField, ClickEvent}
 import com.vaadin.flow.data.value.ValueChangeMode
 import com.vaadin.flow.demo.helloworld.{Customer, CustomerService}
 import com.vaadin.flow.router.Route
-import com.vaadin.flow.shared.communication.PushMode
-import com.vaadin.flow.shared.ui.Transport
 import com.vaadin.flow.theme.Theme
 import com.vaadin.flow.theme.lumo.Lumo
 
