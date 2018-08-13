@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
   "com.vaadin" % "vaadin-core" % vaadinVersion
 )
 
-lazy val jettyVersion = "9.4.12.RC1" // "9.4.9.v20180320"
+lazy val jettyVersion = "9.4.11.v20180605" // "9.4.12.RC1" "9.4.9.v20180320"
 containerLibs in Jetty := Seq("org.eclipse.jetty" % "jetty-runner" % jettyVersion intransitive())
 
 enablePlugins(JettyPlugin)
