@@ -51,7 +51,8 @@ class MainView extends VerticalLayout {
   val toolbar = new HorizontalLayout(filtering, addCustomerBtn)
 
   grid.setSizeFull()
-  grid.addColumn(_.getFirstName).setHeader("First name")
+  // lange Schreibweise grid.addColumn(hurzi => hurzi.getFirstName).setHeader("First name")
+  grid.addColumn(hurzi => hurzi.getFirstName).setHeader("First name")
   grid.addColumn(_.getLastName).setHeader("Last name")
   grid.addColumn(_.getStatus).setHeader("Status")
 
